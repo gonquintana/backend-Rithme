@@ -5,17 +5,10 @@ const Schema = mongoose.Schema
 const artistsSchema = new Schema({
 
     name : {type : String, required: true},
-    genre : [{ 
-        type : {type : String, required: true},
-        image : {type : String, required: true},
-    }],
+    genre : {type: Schema.Types.ObjectId, ref : 'genres'},
     description: {type : String, required: true},
     image : {type : String, required: true},
-    concerts : [{type: Schema.Types.ObjectId, ref : 'concerts'}]
-
-    // city: {type : String},
-    // tvs : [{type: Schema.Types.ObjectId, ref : 'televisions'}],
-    // mobiles : [{type: Schema.Types.ObjectId, ref : 'mobiles'}]
+    concerts : {type: Schema.Types.ObjectId, ref : 'concerts'}
 
 },{
     timestamps : true

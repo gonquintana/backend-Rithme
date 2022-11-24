@@ -18,7 +18,21 @@ const halls = [{
     name:"Teatro Eslava",
     address:"C. del Arenal, 11, 28013 Madrid",
     image:"https://media.timeout.com/images/105858974/750/422/image.jpg"
+},{
+    name:"Estadio San Mamés",
+    address:"P. Rafael Moreno Pitxitxi, s/n, 48013 Bilbao",
+    image:"https://lh3.googleusercontent.com/p/AF1QipPsmag3A_rqOzFTjC0yrUaMdPJ1cfDSmnGOkWef=s1360-w1360-h1020"
+},{
+    name:"Sala Apolo",
+    address:"C. Nou de la Rambla, 113, 08004 Barcelona",
+    image:"https://media.timeout.com/images/100575949/750/422/image.jpg"
+},{
+    name:"Sala Custom",
+    address:"Pol. Ind. Calonge, C. Metalurgia, 25, Sevilla",
+    image:"https://www.escenaensevilla.es/doc/l/l_custom.jpg"
 }
+
+
 
 ]
 const hallMap = halls.map((hall) => new Hall(hall));

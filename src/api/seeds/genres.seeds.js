@@ -11,6 +11,12 @@ const genres = [{
 },{
     name:"Rock and Roll",
     image:"https://product-image.juniqe-production.juniqe.com/media/catalog/product/seo-cache/x800/25/133/25-133-101X/Rock--Roll-Florent-Bodart-Poster.jpg"
+},{
+    name:"Pop",
+    image:"https://alohaotakus.com/wp-content/uploads/2020/02/popmusic.png"
+},{
+    name:"Música clásica",
+    image:"https://static-2.ivoox.com/canales/3/7/7/4/5901460064773_XXL.jpg"
 }
 
 ]

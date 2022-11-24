@@ -7,7 +7,10 @@
     "start": "node index.js",
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "artists-seed": "node ../seeds/artists.seeds.js"
+    "halls-seeds": "node ./src/api/seeds/halls.seeds.js",
+    "genres-seeds": "node ./src/api/seeds/genres.seeds.js",
+    "concerts-seeds":"node ./src/api/seeds/concerts.seeds.js",
+    "artists-seeds":"node ./src/api/seeds/artists.seeds.js"
   },
   "keywords": [],
   "author": "",

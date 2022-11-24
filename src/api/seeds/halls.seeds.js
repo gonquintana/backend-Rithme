@@ -21,3 +21,22 @@ const halls = [{
 }
 
 ]
+const hallMap = halls.map((hall) => new Hall(hall));
+
+mongoose.connect("mongodb+srv://root:root@cluster0.xbshs7n.mongodb.net/?retryWrites=true&w=majority",{
+    useNewUrlParser: true,
+    useUnifiedTopology:true,
+}).then(async () => {
+    const allHall = await Hall.find();
+
+    if(allHall.length){
+        await Hall.collection.drop();
+        console.log("Hall eliminados")
+    }
+
+}).catch((error) => console.log("error borrando hall", error)).then(async () => {
+    await Hall.insertMany(hallMap)
+console.log("Hall creados");
+
+}).catch((error) => console.log("error insertando", error))
+.finally(() => {mongoose.disconnect()});

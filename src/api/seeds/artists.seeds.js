@@ -26,6 +26,24 @@ const artists = [{
     description:"José Miguel Conejo Torres (Madrid, 30 de abril de 1980), más conocido como Leiva, es un músico, cantautor español y multiinstrumentista de rock. En 1999, formó junto a Rubén Pozo la banda de rock en español Pereza, con la que grabó seis discos hasta su separación en 2011. Tras la disolución del grupo, inició una carrera en solitario en la que lleva cinco discos grabados.",
     image:"https://www.todomusica.org/imagenes/680x380/leiva.jpg",
     concerts:'637fa9a2b9ecbd0b54b65602'
+},{
+    name:"Antonio Orozco",
+    genre:'',
+    description:"Antonio Orozco nació en Hospitalet de Llobregat. Hijo de padres sevillanos de clase trabajadora, es el mayor de tres hermanos.Concierto en Buenos Aires (21 de julio de 2004).Su afición a componer, cantar y tocar la guitarra se remonta cuando, con 15 años, en un viaje a Sevilla en el barrio de Triana ve y escucha cantar y tocar a unos chicos en la calle Betis, cerca del río Guadalquivir. Reunió un poco de dinero y se compró su primera guitarra, que todavía conserva.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Wiki_antonio_orozco.jpg/1024px-Wiki_antonio_orozco.jpg",
+    concerts:''
+},{
+    name:"André Rieu",
+    genre:'',
+    description:"Inició su carrera musical siendo niño y perteneció a diversas orquestas hasta que en 1987 fundó la propia, con el nombre neerlandés de Johann Strauss Orkest y a partir del año siguiente empezó su fulgurante carrera de éxitos por todo el mundo, comenzando por su propia patria, y convirtiéndose en una de las grandes estrellas de la música al nivel de los más prestigiosos artistas de pop o de rock, al tiempo que ganó multitud de adeptos y aficionados a su música.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/f/f2/Andre_Rieu_2010.jpg",
+    concerts:''
+},{
+    name:"Serrat",
+    genre:'',
+    description:"Joan Manuel Serrat Teresa (Barcelona, 27 de diciembre de 1943) es un cantautor, compositor, actor, escritor, poeta y músico español. Premiado con la Gran Cruz de la Orden Civil de Alfonso X el Sabio «por su brillante carrera y su contribución a la cultura y el arte españoles.",
+    image:"https://upload.wikimedia.org/wikipedia/commons/e/e3/Serrat.jpg",
+    concerts:''
 }
 
 ]

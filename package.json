@@ -10,7 +10,8 @@
     "halls-seeds": "node ./src/api/seeds/halls.seeds.js",
     "genres-seeds": "node ./src/api/seeds/genres.seeds.js",
     "concerts-seeds": "node ./src/api/seeds/concerts.seeds.js",
-    "artists-seeds": "node ./src/api/seeds/artists.seeds.js"
+    "artists-seeds": "node ./src/api/seeds/artists.seeds.js",
+    "tickets-seeds": "node ./src/api/seeds/tickets.seeds.js"
   },
   "keywords": [],
   "author": "",

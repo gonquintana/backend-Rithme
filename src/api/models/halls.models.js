@@ -5,7 +5,7 @@ const Schema = mongoose.Schema
 const hallsSchema = new Schema({
 
     name : {type : String, required: true},
-    adress : {type : String, required: true},
+    address : {type : String, required: true},
     image : {type : String, required: true}
 
 },{

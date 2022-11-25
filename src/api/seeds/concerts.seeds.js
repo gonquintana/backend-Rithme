@@ -26,17 +26,17 @@ const concerts = [{
     date:"18 Marzo",
     hour:"20:30",
     price:"20€",
-    halls:''
+    halls:'637fbd5317744f784e7d47e9'
 },{
     date:"10 Febrero",
     hour:"21:00",
     price:"40€",
-    halls:''
+    halls:'637fbd75a9c8cd2ad86481a6'
 },{
     date:"1 Enero",
     hour:"21:00",
     price:"35€",
-    halls:''
+    halls:'637fbd5317744f784e7d47e8'
 }
 
 ]

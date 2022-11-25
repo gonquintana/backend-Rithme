@@ -4,6 +4,7 @@ const Schema = mongoose.Schema
 
 const concertsSchema = new Schema({
 
+    artist : {type : String, required: true},
     date : {type : String, required: true},
     hour : {type : String, required: true},
     price: {type : String, required: true},
